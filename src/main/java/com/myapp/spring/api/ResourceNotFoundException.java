@@ -1,4 +1,3 @@
-  
 package com.myapp.spring.api;
 
 import org.springframework.http.HttpStatus;
