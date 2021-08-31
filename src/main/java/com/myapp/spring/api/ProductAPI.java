@@ -63,7 +63,7 @@ public class ProductAPI {
 		return new ResponseEntity<List<Product>>(repository.findByProductName(productName).get(), HttpStatus.OK);
 	}
 
-	// http://localhost:8080/api/v1/products/1
+	// http://localhost:8080/api/v1/products
 	@GetMapping("/{id}")
 	public ResponseEntity<Product> findById(@PathVariable("id") Integer id) {
 
